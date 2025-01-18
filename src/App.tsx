@@ -1,14 +1,16 @@
 import React from 'react';
-import Header from './components/Header.tsx';
-import Carousel from './components/Carousel.tsx';
-import Sobre from './components/Sobre.tsx';
-import Servicos from './components/Servicos.tsx';
-import Footer from './components/Footer.tsx';
+import Header from './components/Header';
+import Carousel from './components/Carousel';
+import Sobre from './components/Sobre';
+import Servicos from './components/Servicos';
+import Footer from './components/Footer';
+import ScrollSpy from './components/ScrollSpy';
 import './styles.css';
 
-const App: React.FC = () => {
+function App() {
   return (
     <div className="App">
+      <ScrollSpy />
       <Header />
       <Carousel />
       <Sobre />
