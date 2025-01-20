@@ -10,26 +10,6 @@ const Footer: React.FC = () => {
           <img src="/images/logo.png" alt="Logo da empresa" />
           <h1>ASA Personalizados</h1>
         </div>
-
-        {/* Informações de contato */}
-        <div id="footer-info">
-          <h2>Contatos</h2>
-          <p>
-            Telefone:{" "}
-            <a href="https://wa.me/5518996791377" target="_blank" rel="noopener noreferrer">
-              (18) 99679-1377
-            </a>
-          </p>
-          <p>
-            Telefone:{" "}
-            <a href="https://wa.me/5518996798352" target="_blank" rel="noopener noreferrer">
-              (18) 99679-8352
-            </a>
-          </p>
-          <p>E-mail:</p>
-          <a href="mailto:anndreh01@gmail.com">anndreh01@gmail.com</a>
-        </div>
-
         {/* Redes sociais */}
         <div id="footer-social-media">
           <h2>Redes Sociais</h2>
@@ -55,5 +35,4 @@ const Footer: React.FC = () => {
     </footer>
   );
 };
-
 export default Footer;

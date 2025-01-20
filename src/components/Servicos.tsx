@@ -30,7 +30,7 @@ const Servicos: React.FC = () => {
           <a href="https://wa.me/5518996798352" className="button">Enviar WhatsApp</a>
         </div>
         <div className="card">
-          <img src="/imagens/manuteção.jpg" alt="Outros Serviços" />
+          <img src="/images/manuteção.jpg" alt="Outros Serviços" />
           <h2>Outros Serviços</h2>
           <p>Consultoria em TI, suporte técnico, manutenção de computadores e notebooks.</p>
           <a href="https://wa.me/5518996791377" className="button">Enviar WhatsApp</a>
