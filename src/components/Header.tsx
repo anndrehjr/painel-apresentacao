@@ -5,7 +5,7 @@ const Header: React.FC = () => {
     <nav>
       <ul>
         <li>
-          <a href="#header" className="active">
+          <a href="#" className="active">
             <i className="fas fa-home"></i> <span>Home</span>
           </a>
         </li>
@@ -20,7 +20,7 @@ const Header: React.FC = () => {
           </a>
         </li>
         <li>
-          <a href="#footer">
+          <a href="#contatos">
             <i className="fas fa-envelope"></i> <span>Contatos</span>
           </a>
         </li>
