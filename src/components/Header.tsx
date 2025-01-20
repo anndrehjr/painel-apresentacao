@@ -20,7 +20,7 @@ const Header: React.FC = () => {
           </a>
         </li>
         <li>
-          <a href="#contatos">
+          <a href="#footer">
             <i className="fas fa-envelope"></i> <span>Contatos</span>
           </a>
         </li>
